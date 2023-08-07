@@ -1,0 +1,25 @@
+.grid{
+    width: 512px;
+    height: 412px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+    border: solid black 2px;
+}
+
+.mole{
+    background-image: url('terrorist_2.png');
+    background-size: cover;
+}
+
+.scoreText{
+    padding-top: 50px;
+}
