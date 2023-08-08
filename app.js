@@ -51,6 +51,6 @@ function tickClock(){
 tickClock()
 
 function moveMole(){
-    timerId = setInterval(randomSquare,550)
+    timerId = setInterval(randomSquare,500)
 }
 moveMole()
