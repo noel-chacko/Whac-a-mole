@@ -10,8 +10,8 @@ End Screen
   
 Game only starts once the first attacker has been clicked.
 
-![whac-a-mole](https://github.com/noel-chacko/Whac-a-mole/assets/69741906/5f0f22d7-74aa-483f-8f1c-506e66e53737)
+![whac-a-mole round](https://github.com/noel-chacko/Whac-a-mole/assets/69741906/2dcae9ce-341c-404f-be4e-da957be42f81)
 
 End Screen. Made using HTML dialogue element.
 
-![endScreen](https://github.com/noel-chacko/Whac-a-mole/assets/69741906/a8f6cb22-8c19-428c-885f-03186d2676f2)
+![endScreennew](https://github.com/noel-chacko/Whac-a-mole/assets/69741906/7668821b-f3c9-4335-a7d9-150eb6403b8c)
