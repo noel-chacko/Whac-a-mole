@@ -5,7 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 140px;
     padding-left: 100px;
     padding-bottom: 80px;
 }
@@ -91,4 +91,17 @@ html {
     font-size: 50px;
     background-color: azure;
     font-family: "Candara","Lucida Console", "Courier New", monospace;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Candara","Lucida Console", "Courier New", monospace;
+    box-shadow: 0 2px 2px 0 black;
 }
