@@ -5,15 +5,17 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding-top: 140px;
-    padding-left: 100px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    gap: 1rem
 }
 
 .square{
     height: 100px;
     width: 100px;
     border: solid black 5px;
+    border-radius: 40px;
 }
 
 .mole{
@@ -58,7 +60,7 @@
     margin: auto;
     background-color: white;
     border-radius: 40px;
-    width: 350px;
+    width: 400px;
     box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.6);
 }
 
@@ -67,7 +69,7 @@
     margin: auto;
     background-color: white;
     border-radius: 40px;
-    width: 350px;
+    width: 400px;
     box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.6);
 }
 
