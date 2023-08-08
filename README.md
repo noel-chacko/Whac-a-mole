@@ -4,9 +4,11 @@ Whac-a-mole game using gaming elements
 An online whac-a-mole game that gives the user 15 seconds to click on an attacker as it pops up.
 
 Includes:
-15 second timer\n
-Score tracker\n
-End Screen\n
+15 second timer
+
+Score tracker
+
+End Screen
 
 Game only starts once the first attacker has been clicked.
 
