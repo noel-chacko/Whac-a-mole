@@ -9,6 +9,7 @@ let currentTime = 15
 let timerId = null
 countDownTimerId = null
 start = false
+let gameOver = null
 
 function randomSquare() {
     squares.forEach(square => {
@@ -39,7 +40,9 @@ function countDown() {
     if (currentTime == 0){
         clearInterval(countDownTimerId)
         clearInterval(timerId)
-        alert("GAME OVER! Your final score is " + result)
+        gameOver = `GAME OVER! Your final score is ` + result;
+        document.getElementById('gameOver').innerHTML = gameOver;
+        modal.showModal();
     }
 }
 }
@@ -55,3 +58,4 @@ function moveMole(){
 }
 moveMole()
 
+const modal = document.querySelector("#modal");

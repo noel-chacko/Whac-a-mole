@@ -17,7 +17,7 @@
 }
 
 .mole{
-    background-image: url('terrorist_2.png');
+    background-image: url('attacker.png');
     background-size: cover;
 }
 
@@ -38,6 +38,7 @@
     padding-bottom: 50px;
     font-size: 50px;
     font-family: "Candara","Lucida Console", "Courier New", monospace;
+    color: red;
 }
 
 .YS{
@@ -77,3 +78,17 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
+
+.modal::backdrop{
+    background: linear-gradient(45deg, red, blue);
+    opacity: .3;
+}
+
+.modal{
+    border: 0;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.6);
+    margin-top: 230px;
+    font-size: 50px;
+    background-color: azure;
+    font-family: "Candara","Lucida Console", "Courier New", monospace;
+}
