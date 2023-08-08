@@ -1,11 +1,11 @@
 const squares = document.querySelectorAll('.square')
 const mole = document.querySelector('.mole')
 const timeLeft = document.querySelector('#time-left')
-const score = document.querySelector('#score')
+const score = document.querySelector('.score')
 
 let result = 0
 let hitPosition
-let currentTime = 10
+let currentTime = 15
 let timerId = null
 countDownTimerId = null
 start = false
@@ -51,6 +51,7 @@ function tickClock(){
 tickClock()
 
 function moveMole(){
-    timerId = setInterval(randomSquare,500)
+    timerId = setInterval(randomSquare,650)
 }
 moveMole()
+

@@ -7,12 +7,13 @@
     margin: 0 auto;
     padding-top: 100px;
     padding-left: 100px;
+    padding-bottom: 80px;
 }
 
 .square{
     height: 100px;
     width: 100px;
-    border: solid black 2px;
+    border: solid black 5px;
 }
 
 .mole{
@@ -22,4 +23,57 @@
 
 .scoreText{
     padding-top: 50px;
+    display: inline;
 }
+
+.TL{
+    display: inline;
+    text-align:center;
+    font-size: 50px;
+    font-family: "Candara","Lucida Console", "Courier New", monospace;
+}
+
+.timeNum{
+    display: inline;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family: "Candara","Lucida Console", "Courier New", monospace;
+}
+
+.YS{
+    display: inline;
+    font-size: 50px;
+    font-family: "Candara","Lucida Console", "Courier New", monospace;
+}
+
+.score{
+    display: inline;
+    font-size: 50px;
+    font-family: "Candara","Lucida Console", "Courier New", monospace;
+}
+
+.allScoreText{
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 40px;
+    width: 350px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.6);
+}
+
+.allTimeText{
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 40px;
+    width: 350px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.6);
+}
+
+html { 
+    background: url(desert.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
